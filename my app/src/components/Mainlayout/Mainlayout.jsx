@@ -27,13 +27,13 @@ const Mainlayout = ({ children }) =>   {
 
      {/* This switch is for dark & light mode    */}
 
-       {/* <div className="switch">
+     <div className="switch">
         <ReactSwitch
           className="React_Switch"
           onChange={toggleTheme}
           checked={theme === "dark"}
         />
-      </div>   */}
+      </div>  
 
     {/* ---- */}
 
